@@ -47,7 +47,7 @@ function startgame() {
       
     }
 
-    var resTwo = prompt("To keep your followers you'll to keep them inspired. Followers love rituals. Try one of these (enter the number): 1. Sacrifice a cat 2. Read a poem 3. Do a pentagram dance").toLowerCase();
+    var resTwo = prompt("To keep your followers you'll to keep them inspired. Followers love rituals. Try one of these (ENTER THE NUMBER): 1. Sacrifice a cat 2. Read a poem 3. Do a pentagram dance");
 
     if (resTwo == 1 || 2 || 3) {
       
