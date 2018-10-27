@@ -21,7 +21,7 @@
 <div id="gamearea"></div>
 
     <!-- form -->
-<form id="gameform">
+<form id="gameform" onsubmit="startgame()">
   <div class="form-group">
     <label>First Name</label>
     <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter first name" required/>
@@ -34,7 +34,7 @@
     <label>Name Your Cult</label>
     <input type="text" class="form-control" id="cultname" name="cultname" placeholder="Name of your new cult" required/>
   </div>
-  <button type="button" class="btn btn-primary" onclick="startgame()">Submit</button>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
     <!-- Optional JavaScript -->
