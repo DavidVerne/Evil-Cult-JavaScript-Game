@@ -1,0 +1,31 @@
+
+body {
+  background-image: url('/EvilCult/lovecraft.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: green !important;
+}
+
+form {
+  width: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+
+label {
+  color: #fff;
+}
+
+
+/* #gamearea {
+  display: none;
+  border: 1px solid green;
+  width: 50%;
+  height: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+  background-color: black;
+  color: white;
+} */
