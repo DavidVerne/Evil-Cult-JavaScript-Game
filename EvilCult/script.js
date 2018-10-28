@@ -14,7 +14,7 @@ function startgame() {
     + " You're about to join the ranks of some seriously evil leaders."
     + " Hit OK to begin your cult journey.");
 
-   var resOne = prompt("You currently has 0 followers. You need to change that. A cult leader is nothing without followers."
+   var resOne = prompt("You currently have 0 followers. You need to change that. A cult leader is nothing without followers."
     + " I wonder where you can find some impressionable minds. Here are some suggestions: 1.party 2.college 3.army").toLowerCase();
 
    switch(resOne) {
@@ -83,7 +83,7 @@ function startgame() {
       
     }
 
-    alert("You're adventures have ended for now. Game Over!");
+    alert("Your adventures have ended for now. Game Over!");
 
     var resFour = prompt("Please rank the game out of 10");
 
